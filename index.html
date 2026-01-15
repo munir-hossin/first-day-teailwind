@@ -1,51 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwind-first-day</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <title>at-Tartil Madrasah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1 class="bg-red-500" class="w-10">this is h1</h1>
-   
-   <marquee>
-   <h3 class="text-7xl my-auto mx-auto">
-            hellow i am munir 
-        </h3>
-   </marquee>
-    <div class="box-border border-spacing-6 w-20 h-20 bg-purple-400 rounded-full">
-    this is a div
-</div>
-<div class="bg-orange-300">
-    <h1>bbdfsadfasdfaafadsfafagi</h1>
-</div>
+<body class="bg-gray-50 text-gray-800">
 
-    <div class="w-2/4 h-screen rounded-full align-middle text-center mx-auto bg-yellow-500 text-green-800">
-        <h3 class="text-7xl my-auto mx-auto">
-            hellow i am munir 
-        </h3>
+<!-- Navbar -->
+<nav class="bg-green-900 text-white fixed w-full z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-2xl font-bold hover:text-yellow-300 transition">Madrasah</h1>
+    <ul class="flex gap-6">
+      <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+      <li><a href="about.html" class="hover:text-yellow-300">About</a></li>
+      <li><a href="education.html" class="hover:text-yellow-300">Education</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="pt-32 bg-gradient-to-r from-green-800 to-green-600 text-white">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center p-8">
+    <div class="animate-pulse">
+      <h2 class="text-4xl font-bold mb-4">Islamic & Modern Education</h2>
+      <p class="mb-6 text-lg">We prepare students with Quran, Sunnah, and modern knowledge.</p>
+      <a href="education.html" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition transform hover:scale-105">
+        Explore Programs
+      </a>
     </div>
+    <img src="https://i.ibb.co/7pP1zP0/madrasa.png" class="rounded-xl shadow-lg hover:scale-105 transition">
+  </div>
+</section>
 
-    <p class="text-purple-700 text-xs font-bold">typo 1</p>
-    <p class="text-purple-700 text-sm">typo 1</p>
-    <p class="text-purple-700 text-lg">typo 1</p>
-    <p class="text-purple-700 text-xl">typo 1</p>
-    <p class="text-purple-700 text-2xl">typo 1</p>
-    <p class="text-purple-700 text-4xl ">typo 1</p>
-
-    <div>
-        <p class="bg-green-400 p-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium soluta obcaecati tenetur et dolor laborum earum fuga, asperiores quibusdam atque iusto in vitae provident. Voluptates voluptatem maiores rerum error.
-
-        </p>   <p class="bg-yellow-500 p-7 my-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium soluta obcaecati tenetur et dolor laborum earum fuga, asperiores quibusdam atque iusto in vitae provident. Voluptates voluptatem maiores rerum error.
-
-        </p>   <p class="bg-red-600 p-8 mx-10">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium soluta obcaecati tenetur et dolor laborum earum fuga, asperiores quibusdam atque iusto in vitae provident. Voluptates voluptatem maiores rerum error.
-
-        </p>
+<!-- Features -->
+<section class="py-16">
+  <div class="max-w-7xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-10">Why Choose Our Madrasah?</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-2 transition">
+        <h4 class="text-xl font-bold mb-2">Qualified Teachers</h4>
+        <p>Experienced Islamic scholars and modern educators.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-2 transition">
+        <h4 class="text-xl font-bold mb-2">Modern Curriculum</h4>
+        <p>Balanced Islamic and general education system.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:-translate-y-2 transition">
+        <h4 class="text-xl font-bold mb-2">Moral Development</h4>
+        <p>Building character based on Quran & Sunnah.</p>
+      </div>
     </div>
+  </div>
+</section>
 
-</body>
+
+<!-- about section start -->
+  <div class="bg-gray-100">
+
+<section class="bg-green-800 text-white p-16 text-center">
+  <h1 class="text-4xl font-bold mb-4">About Our Madrasah</h1>
+  <p class="text-lg">Serving Islamic education with excellence</p>
+</section>
+
+<section class="max-w-6xl mx-auto p-8 grid md:grid-cols-2 gap-10">
+  <div class="hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-4">Our Mission</h2>
+    <p>To develop knowledgeable, practicing Muslims with modern skills.</p>
+  </div>
+
+  <div class="hover:scale-105 transition">
+    <h2 class="text-2xl font-bold mb-4">Our Vision</h2>
+    <p>To become a leading Islamic institution worldwide.</p>
+  </div>
+</section>
+
+<footer class="bg-green-900 text-white text-center p-4">
+  Back to <a href="index.html" class="underline hover:text-yellow-300">Home</a>
+</footer>
+<!-- about section end -->
+
+<div class="bg-gray-50">
+
+<section class="bg-green-700 text-white text-center p-16">
+  <h1 class="text-4xl font-bold">Our Education System</h1>
+</section>
+
+<section class="max-w-7xl mx-auto p-10 grid md:grid-cols-3 gap-8">
+  <div class="bg-white p-6 rounded-xl shadow hover:bg-green-50 hover:-translate-y-2 transition">
+    <h3 class="text-xl font-bold mb-2">Hifz Program</h3>
+    <p>Complete memorization of the Holy Quran.</p>
+  </div>
+  <div class="bg-white p-6 rounded-xl shadow hover:bg-green-50 hover:-translate-y-2 transition">
+    <h3 class="text-xl font-bold mb-2">Alim Course</h3>
+    <p>Arabic, Hadith, Fiqh, Tafsir & Islamic studies.</p>
+  </div>
+  <div class="bg-white p-6 rounded-xl shadow hover:bg-green-50 hover:-translate-y-2 transition">
+    <h3 class="text-xl font-bold mb-2">Modern Subjects</h3>
+    <p>English, Mathematics, ICT & General Knowledge.</p>
+  </div>
+</section>
+
+<footer class="bg-green-900 text-white text-center p-6">
+  © 2026 AT-Tartil Madrasah | All Rights Reserved
+</footer>
+
+</div>
+
+
+</div>
 </html>
